@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #E0FFFF !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Geologica', sans-serif;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 3.5;
+  font-weight: 800;
+}
+
+h3 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+h5 {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+h6 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+
+p,
+li {
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+}
+
+li {
+  font-style: 1.3rem;
+  line-height: 1.6rem;
+}
+
+.header {
+  background: #E0FFFF;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerImg {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+}
+
+.divHeader {
+  display: flex;
+  gap: 4rem;
+}
+
+.x-SmallSearchQuery {
+  display: none;
+}
+
+.SearchClicked {
+  position: fixed;
+  left: 100px;
+  top: 5px;
+}
+
+.searchQuery {
+  width: 20rem;
+  height: 3rem;
+  outline: none;
+  border-radius: .5rem;
+  border: none;
+  padding-left: 10px;
+  font-family: 'Geologica', sans-serif;
+  display: none;
+}
+
+
+.MenuClicked {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  top: -10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.MenuUl {
+  margin-top: 30%;
+  margin-left: -10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 5rem;
+  list-style: none;
+  font-size: 2rem;
+  transition: all .5s;
+}
+
+.x-LargeMenu {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+}
+
+.MenuAnchor {
+  text-decoration: none;
+  color: #252023;
+  transition: all .3s;
+}
+
+.MenuAnchor:hover {
+  color: #116ffa;
+}
+
+.heroSection {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 5%;
+  padding-left: 3%;
+}
+
+.heroContentDiv {
+  display: flex;
+  width: 25rem;
+  height: 35rem;
+  background: #fafafa;
+  border-radius: 1rem;
+  box-shadow: 10px 10px 0 0 #116ffa;
+  gap: 2rem;
+  position: relative;
+}
+
+.sectNewton{
+  margin-left: 25%;
+}
+
+.heroHighLightText {
+  color: #116ffa;
+}
+
+.heroHighLightList {
+  max-width: 120px;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+}
+
+hr {
+  border-color: #666;
+}
+
+.heroImg {
+  position: absolute;
+  right: -30px;
+  top: 50px;
+  width: 15rem;
+  height: 20rem;
+  border-radius: .5rem;
+}
+
+.dCV {
+  position: absolute;
+  bottom: 20px;
+  left: 70px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.counterSect {
+  margin-top: 6%;
+}
+
+.counterDiv {
+  width: 100%;
+  height: 20rem;
+  background-color: #E0FFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border:1px solid #fff;
+  border-radius: .5rem;
+  box-shadow: 1px 1px 10px 2px #116ffa;
+}
+
+.counterText{
+  text-align: center;
+}
+
+.influencedSect{
+  margin-top: 15%;
+}
+
+.influencedDiv{
+  width:40rem;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 2rem;
+  overflow-x: scroll;
+  box-shadow: 0 0 10px 10px #fff;
+}
+
+.influencedDiv::-webkit-scrollbar {
+  display: none;
+}
+
+.influencedImg{
+  width:20rem;
+  height:20rem;
+  border-radius: 2rem;
+  margin-left: 10%;
+}
+
+.influencedImgText{
+  margin-left:25.0%;
+  display: flex;
+  justify-content: space-between;
+  margin-top:-15.0%;
+  color:#fff;
+  white-space: nowrap;
+}
+
+.influencedText{
+  margin-top: -10%;
+  margin-left: 30%;
+  color:#fff;
+}
+
+
+.footer{
+  margin-top: 10%;
+}
+
+.footerDiv{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerAnchor{
+  text-decoration: none !important;
+}
